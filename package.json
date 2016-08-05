@@ -10,7 +10,7 @@
     "postinstall": "typings install",
     "watch": "webpack --watch",
     "prebuild": "rimraf dist",
-    "build": "webpack",
+    "build": "webpack && gulp styles",
     "build:prod": "webpack --progress -p",
     "prestart": "npm run build",
     "server": "nodemon dist/server/index.js",
