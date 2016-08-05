@@ -1,3 +1,9 @@
-<div class="home">
-  This is the "Home" page
+<div class="usa-width-one-whole">
+	<h1>Test Search Results</h1>
+</div>
+<div class="usa-width-one-whole">
+	<form>
+		<input type="text" [value]="keyword" (input)="keyword = $event.target.value" autofocus>
+		<button type="submit" class="usa-button-primary" type="submit" (click)="runSearch()">Search</button>
+	</form>
 </div>

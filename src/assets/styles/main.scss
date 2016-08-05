@@ -1,5 +1,11 @@
 @import '../../../node_modules/samwds/src/stylesheets/all';  
-
+body{
+	background-color:#ccc;
+}
 .search-results li{
 	list-style:none!important;
+}
+.pagination li{
+	list-style:none!important;
+	display:inline-block;
 }
